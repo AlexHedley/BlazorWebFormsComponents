@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Migration Strategies | BlazorWebFormsComponents </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Migration Strategies | BlazorWebFormsComponents ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../../images/FritzAndFriends.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/FritzAndFriends.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="migration-strategies">Migration Strategies</h1>
+
+<p>Migration from ASP<span></span>.NET Web Forms to Blazor is not simple and this repository attempts to make it easier for developers to reuse as much of their Web Forms application as possible.  The two technologies are 'concept compatible', but run on different implementations of the .NET runtime (.NET Framework vs. .NET Core / .NET 5+)</p>
+<p>We, the maintainers of this project, believe that with a little ingenuity the markup from a Web Forms application can be copied over with minimal changes and function similarly to its original purpose.  We believe that well formatted and maintained code in Web Forms should be easily migrated.  Applications that are a significant mix of C# and markup will have a more difficult time going through this process.</p>
+<h2 id="readiness-planning">Readiness Planning</h2>
+<p>Migrating an application to Blazor is not a trivial process and it would be great to have some indication ahead of time how much work is needed and what steps you need to take to prepare to migrate.  Check our migration <a href="../migration_readiness.md">readiness document</a> to help determine how much work will be needed for your application to begin the process.</p>
+<h2 id="known-required-changes">Known Required Changes</h2>
+<p>There are several changes that are going to need to be made to the markup in your ASPX and ASCX files in order to get them working.  Some of these are obvious changes, and some are considerations necessary for the razor templating and Blazor rendering engine.</p>
+<h3 id="visual-basic-converted-to-c">Visual Basic converted to C#</h3>
+<p>Blazor uses razor templates which only support the C# language.  All Visual Basic in the markup will need to be converted to C#.</p>
+<h3 id="bee-sting-notation---needs-to-be-converted-to--notation">Bee-sting notation &lt;% %&gt; needs to be converted to @() notation</h3>
+<p>ASP<span></span>.NET famously wrapped all .NET code in &lt;% %&gt;.  Starting with ASP<span></span>.NET MVC and razor templates, all C# code is wrapped in @() syntax.</p>
+<h3 id="_imports-files-needed">_Imports files needed</h3>
+<p>In order to match some of the syntax previously available in Web Forms markup, a series of <code>using static</code> statements are necessary to allow the appropriate shims to work with your markup.  You can find our sample of the <code>_Imports.razor</code> file here:  <strong>INSERT LINK</strong></p>
+<h3 id="user-controls-ascx-files-need-to-be-converted-to-components">User Controls (ASCX files) need to be converted to components</h3>
+<p>Components are the building blocks for Blazor, just as controls were in Web Forms.  If you have user controls in your application, you will need to convert those to components.  See the UserControl strategy below for more details.</p>
+<h3 id="masterpages-are-no-more">MasterPages are no more</h3>
+<p>The concept of a MasterPage does not exist in Blazor.  Instead, your ASPX pages will be loaded inside of a host page.  You can compose a razor component that hosts other <em>converted ASPX pages</em> but your pages cannot dictate their parent container.  See the <a href="MasterPages.html">MasterPage strategy</a> below for more details.</p>
+<h3 id="page-directive-changes">Page Directive Changes</h3>
+<h3 id="no--databinding-expressions">No &lt;%#: DataBinding expressions</h3>
+<p>Databinding expressions in Web Forms let you evaluate the content of the elements and format them appropriately for presentation.  For editor controls, it also allows you to setup a 2-way binding so that you can receive values entered into the same variable bound to the control.</p>
+<p>In Blazor, for repeater-style components, just format the variable using context, Item, and simple formatting like this:</p>
+<pre><code class="lang-csharp">@Item.ShipDate.ToString(&quot;D&quot;)
+</code></pre>
+<p>For editor components, simply <code>@bind</code> the variable to the component.  This will give you two-way data-binding and the ability to handle changes in the editor component AS it changes.</p>
+<pre><code class="lang-html">&lt;input type=&quot;text&quot; name=&quot;foo&quot; @bind=&quot;bar&quot; /&gt;
+</code></pre>
+<h3 id="no-namespaces-no-tag-prefixes">No Namespaces, No Tag-Prefixes</h3>
+<p>Namespaces and tag-prefixes are gone.  You can do a Find and Replace on <code>asp:</code> and remove those from your markup.</p>
+<h3 id="redirect-color-to-webcolor">Redirect Color to WebColor</h3>
+<p>This change should <strong>NOT</strong> require any coding modifications.  In Web Forms, you could refer to <code>System.Drawing.Color</code> objects when setting <code>BackColor</code>, <code>BorderColor</code>, and <code>ForeColor</code> to name a few properties.  You could <em>ALSO</em> freely use HTML hex-color notation freely in these fields.<br>
+The <code>System.Drawing.Color</code> object does not have a converter that allows you to convert between these two formats, so we wrapped the object and made <code>BlazorWebFormsComponents.WebColor</code> that performs the same task and allows the interchange of <code>System.Drawing.Color</code> object with HTML hex notation.</p>
+<h2 id="strategies">Strategies</h2>
+<ul>
+<li>A simple initial site migration</li>
+<li>Intertwined code</li>
+<li><a href="Databinder.md">DataBinder</a></li>
+<li>Model-Binding</li>
+<li><a href="NET-Standard.html">.NET Standard to the rescue!</a></li>
+<li>Other considerations
+<ul>
+<li><a href="MasterPages.html">MasterPage</a>
+<ul>
+<li>Rearchitecting Web Application Layout</li>
+</ul>
+</li>
+<li>UserControls
+<ul>
+<li>The simple conversion</li>
+</ul>
+</li>
+<li><a href="Custom-Controls.html">Custom Controls</a></li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

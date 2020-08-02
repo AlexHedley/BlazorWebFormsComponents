@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ViewState | BlazorWebFormsComponents </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ViewState | BlazorWebFormsComponents ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../../images/FritzAndFriends.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/FritzAndFriends.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="viewstate">ViewState</h1>
+
+<p>One of the most abused and misunderstood features of ASP<span></span>.NET Web Forms is ViewState.  Originally designed to help stateful Visual Basic 6 Windows application developers migrate to the web, this feature delivered a lot of heartache to developers who didn't fully understand and limit its usage appropriately in their web applications.  In Web Forms, every <code>Page</code> and every <code>Control</code> carries a ViewState object that contains the state of the Control or Page at the time of request, serialized and output as an HTML hidden input tag.  Without proper diligence in selecting which controls and features need their state tracked, many applications found this HTML tag fill up with megabytes of serialized code and slowing their applications.</p>
+<p>Elsewhere in Web Forms, ViewState could be used as a key/value store to place data that should be remembered during the current fetch/post/retrieve cycle for a page.  You would find syntax like the following in Pages and Controls to add the <code>bar</code> object with a key named <code>foo</code>:</p>
+<pre><code class="lang-c#">ViewState.Add(&quot;foo&quot;, bar);
+</code></pre>
+<p>or to fetch the item named <code>foo</code> from ViewState:</p>
+<pre><code class="lang-c#">ViewState[&quot;foo&quot;]
+</code></pre>
+<p>It's a simple syntax and implements a typical Dictionary pattern.  After the PreRender phase of a Page, the content would be serialized and inserted into an HTML hidden input so that it would be available when the Page was posted.</p>
+<h2 id="implementation">Implementation</h2>
+<p>In BlazorWebFormsComponents, we want to preserve this API but provide a proper Blazor implementation.  To do this, we have provided a basic <code>Dictionary&lt;string,object&gt;</code> property called <code>ViewState</code> that you can add items to and retrieve from.  This ViewState is preserved for the duration of the life of the component as your user interacts with it.  This is an in-memory storage on the server (in the case of server-side Blazor) or in the Browser as part of Blazor Web-Assembly.</p>
+<p>You can see the implementation in the BaseWebFormsComponent class.</p>
+<h2 id="moving-on">Moving On</h2>
+<p>ViewState is not a feature you should continue to use after migrating.  While we have already eliminated the serializeation / deserialization performance issue with ViewState, we still recommend moving any storage you do with ViewState to class-scoped fields and properties that can be validated and strongly-typed.  This will also reduce the boxing/unboxing performance issue that exists with ViewState.</p>
+<p>You would define the property for Foo with a syntax similar to, substituting the proper type of bar for <code>BarType</code>:</p>
+<pre><code class="lang-c#">protected BarType Foo { get; set; }
+</code></pre>
+<p>The interaction above would be updated to the following syntax in your component's class:</p>
+<pre><code class="lang-c#">// Store bar for retrieval later
+Foo = bar;
+
+// Fetch bar for use
+bar = Foo;
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DataBinder | BlazorWebFormsComponents </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="DataBinder | BlazorWebFormsComponents ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../../images/FritzAndFriends.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/FritzAndFriends.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="databinder">DataBinder</h1>
+
+<p>In Web Forms applications, there is a somewhat standard approach of formatting and placing data in controls by using the DataBinder object.  The DataBinder would be used in ItemTemplate, AlternatingItemTemplate, and other control templates to indicate where data would be formatted and placed.  <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.databinder?view=netframework-4.8">Microsoft's original documentation about the DataBinder</a> are available.</p>
+<h2 id="aspnet-syntax-support-and-migration">ASP<span></span>.NET Syntax, Support and Migration</h2>
+<p>There are several common techniques that the DataBinder was used and various levels of support are provided:</p>
+<table>
+<thead>
+<tr>
+<th>Web Forms Syntax</th>
+<th>Description</th>
+<th>Blazor Support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DataBinder.Eval(Container.DataItem, &quot;PropertyName&quot;)</code></td>
+<td>Output the <code>PropertyName</code> of the current item</td>
+<td><em>Fully Supported for Container.DataItem</em></td>
+</tr>
+<tr>
+<td><code>Eval(&quot;PropertyName&quot;)</code></td>
+<td>Output the <code>PropertyName</code> of the current item</td>
+<td><em>Fully Supported when using static</em></td>
+</tr>
+<tr>
+<td><code>DataBinder.Eval(Container.DataItem, &quot;PropertyName&quot;, &quot;FormatString&quot;)</code></td>
+<td>Output the formatted value of <code>PropertyName</code> of the current item with the <code>FormatString</code></td>
+<td><em>Fully Supported for Container.DataItem</em></td>
+</tr>
+<tr>
+<td><code>Eval(&quot;PropertyName&quot;, &quot;FormatString&quot;)</code></td>
+<td>Output the formatted value of <code>PropertyName</code> of the current item with the <code>FormatString</code></td>
+<td><em>Fully Supported when using static</em></td>
+</tr>
+<tr>
+<td><code>DataBinder.GetDataItem</code></td>
+<td>Output the item currently operated on</td>
+<td>Not supported: Replace with calls to <code>@context</code></td>
+</tr>
+<tr>
+<td><code>DataBinder.GetPropertyValue(Container.DataItem, &quot;PropertyName&quot;)</code></td>
+<td>Get the property requested as an object for further handling</td>
+<td>Only supported when passing in <code>@context</code> for the first argument. <strong>Recommendation</strong>: replace with <code>@context.PropertyName</code> to directly access the property in a strongly-typed manner</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#DataBinder">Back to top</a></p>
+<h2 id="support-and-migration">Support and Migration</h2>
+<p>The DataBinder is not recommended by Microsoft in Web Forms for use in high-performance applications due to the amount of reflection used to output and format content.  Similarly, we do not recommend long-term use of the DataBinder and have marked it with an <code>Obsolete</code> flag indicating that there are methods to easily migrate syntax to be more Razor-performance-friendly.</p>
+<p><a href="#DataBinder">Back to top</a></p>
+<h3 id="usage">Usage</h3>
+<p>To migrate your Web Forms control that is referencing the DataBinder to Blazor, start with syntax similar to the following:</p>
+<pre><code class="lang-html">&lt;ItemTemplate&gt;
+  &lt;li&gt;&lt;%#: DataBinder.Eval(Container.DataItem, &quot;Price&quot;, &quot;{0:C}&quot;) %&gt;&lt;/li&gt;
+&lt;/ItemTemplate&gt;
+</code></pre>
+<p>All of the databound components in this library support DataBinder syntax and can easily be converted by replacing the angle brackets with razor notation like the following:</p>
+<pre><code class="lang-html">&lt;ItemTemplate&gt;
+  &lt;li&gt;@DataBinder.Eval(Container.DataItem, &quot;Price&quot;, &quot;{0:C}&quot;)&lt;/li&gt;
+&lt;/ItemTemplate&gt;
+</code></pre>
+<p>That's a VERY simple conversion and its clear how we can continue to deliver the same feature and formatting using Blazor.  You can even shorten the syntax to use the simple <code>Eval</code> keyword and get the same effect.  Just include a <code>@using static</code> keyword near the top of your Blazor page with this syntax and you can using the shortened format of <code>Eval</code>.</p>
+<pre><code class="lang-html">@using static BlazorWebFormsComponents.DataBinder
+...
+&lt;ItemTemplate&gt;
+  &lt;li&gt;@Eval(&quot;Price&quot;, &quot;{0:C}&quot;)&lt;/li&gt;
+&lt;/ItemTemplate&gt;
+</code></pre>
+<p><em>Note:</em> Your Blazor application will emit compiler warnings while you continue to use the DataBinder.</p>
+<p><a href="#DataBinder">Back to top</a></p>
+<h3 id="moving-on">Moving On</h3>
+<p>Moving on from the DataBinder to a more performant and simple Razor syntax is quite easy using an <code>ItemContext</code> and referencing the iterated item directly.  This approach has the additional benefit of providing type-safety and compiler checking on the content of your Blazor pages.</p>
+<p>Our <code>Eval(&quot;Price&quot;)</code> statement above is further simplified into:</p>
+<pre><code class="lang-html">&lt;Repeater Context=&quot;Item&quot;&gt;
+...
+    &lt;ItemTemplate&gt;
+      &lt;li&gt;@Item.Price.ToString(&quot;C&quot;)&lt;/li&gt;
+    &lt;/ItemTemplate&gt;
+...
+&lt;/Repeater&gt;
+</code></pre>
+<p><a href="#DataBinder">Back to top</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

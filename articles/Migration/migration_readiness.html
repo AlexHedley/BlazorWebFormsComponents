@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Web Forms Application Migration Readiness | BlazorWebFormsComponents </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Web Forms Application Migration Readiness | BlazorWebFormsComponents ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../../images/FritzAndFriends.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/FritzAndFriends.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="web-forms-application-migration-readiness">Web Forms Application Migration Readiness</h1>
+
+<p>This document is intended as a primer for prospective teams to review in preparation for migrating their Web Forms applications to Server-Side Blazor.  We believe the migration is a multi-step process and this application review and preparation is the first step in migrating / rewriting an application using Blazor.</p>
+<h2 id="definitions">Definitions</h2>
+<p>Throughout this document, we will refer to several framework and technology terms.  This section will clarify those terms.</p>
+<ul>
+<li><strong>Web Forms</strong>
+<ul>
+<li>The ASP<span></span>.NET user-interface technology that started with the release in 2002 and is typically identified by applications with web pages that have a <code>.ASPX</code> file-extension</li>
+</ul>
+</li>
+<li><strong>MVC</strong>
+<ul>
+<li>Model-View-Controller architecture introduced in 2009 as an alternative user-interface framework for ASP<span></span>.NET developers.  A project structure that uses the MVC framework typically has 3 or 4 folders in it named <code>Areas</code>, <code>Models</code>, <code>Views</code>, <code>Controllers</code></li>
+</ul>
+</li>
+<li><strong>Razor Views</strong>
+<ul>
+<li>The template technology uses by modern ASP<span></span>.NET MVC and ASP<span></span>.NET Core applications.  Typically, these files are found in the <code>Views</code> folder and have a <code>.cshtml</code> file-extension</li>
+</ul>
+</li>
+</ul>
+<h2 id="high-level-requirements">High-Level Requirements</h2>
+<ul>
+<li>ASPX in-line Visual Basic not supported on Razor components in .NET Core
+<ul>
+<li>Convert to C# or move out to a class library</li>
+</ul>
+</li>
+<li>No data source controls on ASPX pages</li>
+<li>Business logic needs to be convertible to .NET Core</li>
+<li>Class libraries referenced need to be convertible to .NET Standard</li>
+<li>No 3rd party control libraries that don't have a shim for conversion (none available at the time of this writing)</li>
+</ul>
+<h2 id="application-architecture-suggestions">Application architecture suggestions</h2>
+<ul>
+<li>Prefer model-binding techniques over handling Form life-cycle events like <code>Init</code>, <code>Load</code>, <code>PreRender</code>, and <code>Unload</code>
+<ul>
+<li>These event-handlers do not exist and function the same way in Blazor.  Avoid acting outside of the <code>Load</code> event.  The actions you are taking in <code>Load</code> can be executed at the conclusion of the <code>Initialize</code> event in Blazor</li>
+</ul>
+</li>
+<li>Use a repository pattern with interfaces declared for the repositories
+<ul>
+<li>Inject the concrete implementation of the data access technology.  It <em>MAY</em> change to HTTP access at some point in the future</li>
+</ul>
+</li>
+<li>Minimal code embedded in ASPX files - this code will need to be updated to work with the components, where they were using full-featured controls.</li>
+<li>No calls through the control hierarchy.  E.g. <code>FindControl()</code></li>
+<li>Any hybrid applications that contains both MVC and Web Forms user interface content will take some extra work to be converted, as the MVC components will need to be converted to ASP<span></span>.NET Core</li>
+<li><code>System.Confuguration.ConfigurationManager</code> access will need to be rewritten to use <code>Microsoft.Extensions.Configuration.IConfiguration</code> objects that are injected
+<ul>
+<li>Push configuration access to a repository class object that can be migrated to the new Configuration model in .NET Core</li>
+</ul>
+</li>
+<li><code>HttpContext.Current</code> access will need to be reevaluated.  Direct <code>HttpContext</code> access should be avoided in Blazor</li>
+<li>Custom components will need to be rewritten</li>
+<li>User controls <code>.ASCX</code> files should be converted to Blazor components</li>
+<li>HttpHandlers and HttpModules will need to be rewritten as ASP<span></span>.NET Core middleware</li>
+<li>MasterPages can be converted to Layout components</li>
+<li>Mobile device detection is not available as part of Blazor.  <code>Site.mobile.master</code> will not be directly used by the framework.
+<ul>
+<li>Instead of using an alternate rendering strategy for mobile, we recommend you embrace an adaptive rendering strategy to ensure that mobile device visitors to your application get a good experience</li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

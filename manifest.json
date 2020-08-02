@@ -1,0 +1,2611 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.AdRotator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.AdRotator.html",
+          "hash": "hp3SZHDyeYTNJKhigzda+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.AlternatingItemStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.AlternatingItemStyle.html",
+          "hash": "5ZOuQ+onh+rgrVhqT3IHKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.BaseColumn-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.BaseColumn-1.html",
+          "hash": "GaQVPVthU36dsRtRNg5xGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.BaseDataBindingComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.BaseDataBindingComponent.html",
+          "hash": "3deR9AEoxIrjFZ1O7Uwq1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.BaseModelBindingComponent-1.SelectHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.BaseModelBindingComponent-1.SelectHandler.html",
+          "hash": "kLqih8fTG2y7c13uPVB/8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.BaseModelBindingComponent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.BaseModelBindingComponent-1.html",
+          "hash": "8vtSQ8xbUgw3MWFu8biAYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.BaseRow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.BaseRow-1.html",
+          "hash": "17us12QQBfKE3tb615Bhfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.BaseWebFormsComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.BaseWebFormsComponent.html",
+          "hash": "nuHVafPZMwBL3h5wHXUKZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.BoundField-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.BoundField-1.html",
+          "hash": "bhasn62WOOcdqsGVxrnYmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Button.html",
+          "hash": "zkqga61z42skMj9JjIpi7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.ButtonBaseComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.ButtonBaseComponent.html",
+          "hash": "VTeaF0v/lHMxyYFuEuS/Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.ColorHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.ColorHelpers.html",
+          "hash": "s/k0DMCXYT5HaEmcyjHCLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.CommandEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.CommandEventArgs.html",
+          "hash": "eYOgwNiPbaUGP9/RxzC5Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.DataBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.DataBinder.html",
+          "hash": "cbRPtGFXbXcH/NioFGOS0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.DataBindings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.DataBindings.html",
+          "hash": "NncQBCQrbH+l6JsYn9T2rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.DataList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.DataList-1.html",
+          "hash": "m7JDaN73NbARbxCCjT3o4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ArrowsTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ArrowsTreeViewImageSet.html",
+          "hash": "h+knIregS1W2CL+ZJmKhvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.BorderStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.BorderStyle.html",
+          "hash": "5+6iFxxnBoyJ2BtkQht+1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.BothDataList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.BothDataList.html",
+          "hash": "JbXdkXFSfIFLupzpl8SkCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.BulletListDisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.BulletListDisplayMode.html",
+          "hash": "ULQq3jpkvNWAhjgXAg8NLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.BulletedList2TreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.BulletedList2TreeViewImageSet.html",
+          "hash": "Bw8uTMUE3OXo4RVVHM/a6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.BulletedList3TreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.BulletedList3TreeViewImageSet.html",
+          "hash": "ReeJu+I1/bPSCl0RLDqEnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.BulletedList4TreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.BulletedList4TreeViewImageSet.html",
+          "hash": "w/tET+z10MUvWzJuGPQdMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.BulletedListTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.BulletedListTreeViewImageSet.html",
+          "hash": "F2dlJCzoo3lOrTxGVaWNiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ButtonButtonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ButtonButtonType.html",
+          "hash": "qfwA03CfaX+XMRiF0fgZ+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ButtonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ButtonType.html",
+          "hash": "7txM7TXtqubSlvq5s5uX3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ContactsTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ContactsTreeViewImageSet.html",
+          "hash": "KozEoipuc6cNmQPn2MWqqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.CurrencyDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.CurrencyDataType.html",
+          "hash": "JYmlBWAkSIlu/JmBBc7+YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.DataListEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.DataListEnum.html",
+          "hash": "dYjjMtDk/ojHBP1jTTcijQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.DataTypeCheckCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.DataTypeCheckCompareOperator.html",
+          "hash": "ZIVmuuGLLHybJyjSXtK0HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.DateDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.DateDataType.html",
+          "hash": "dnHsjHOLAmR8LqsgDcFhqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.DefaultTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.DefaultTreeViewImageSet.html",
+          "hash": "DT6a+nbUCC0tLh6OvDPClw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.DoubleDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.DoubleDataType.html",
+          "hash": "APFU5w3fAyrG/0JtxO8meQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.EqualCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.EqualCompareOperator.html",
+          "hash": "MT+C1hCUN0mC1CegfvD8pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.EventsTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.EventsTreeViewImageSet.html",
+          "hash": "kZ9GCeNVkYKjtZFEzRjFvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.FAQTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.FAQTreeViewImageSet.html",
+          "hash": "xBxMOE5lEhWD7/W0XholfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.FlowRepeatLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.FlowRepeatLayout.html",
+          "hash": "JI7VDZkEgOJnGANNEBYl3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.FontSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.FontSize.html",
+          "hash": "YQQhMk4uMM2wDWL9rArsWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.FormViewMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.FormViewMode.html",
+          "hash": "MaAjqVNCWn2uWTrRRHK0IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.GreaterThanCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.GreaterThanCompareOperator.html",
+          "hash": "JKTyuKzqX9t6NHmvHBwroA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.GreaterThanEqualCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.GreaterThanEqualCompareOperator.html",
+          "hash": "emhDZrOkimIIDOL0toJtvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.HorizontalAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.HorizontalAlign.html",
+          "hash": "WohopBV9wEJlcA7OGx2h8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.HorizontalDataList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.HorizontalDataList.html",
+          "hash": "wP2WBlWvAGXNxLAocvjxuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.HyperLinkTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.HyperLinkTarget.html",
+          "hash": "5cPBz7FlFuZqUJkOidpw0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ImageAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ImageAlign.html",
+          "hash": "KXg9mDRi8VQoNqcxXIUISA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ImageButtonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ImageButtonType.html",
+          "hash": "fenppU81cU5CzwbmKUykgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.InboxTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.InboxTreeViewImageSet.html",
+          "hash": "Uh0hZnvv9d1+GqZNC9tDIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.InsertItemPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.InsertItemPosition.html",
+          "hash": "OkSE3U5i0L2L6hBFoAC2iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.IntegerDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.IntegerDataType.html",
+          "hash": "pNKIuXUpz268DP6NQb3Tkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.LessThanCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.LessThanCompareOperator.html",
+          "hash": "YPWWXFSBkHBrwriKLseV+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.LessThanEqualCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.LessThanEqualCompareOperator.html",
+          "hash": "Gi1PyxcuJtxOTCeVVoYk4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.LinkButtonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.LinkButtonType.html",
+          "hash": "+IaWjkv3unUl4eEe7532IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ListDisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ListDisplayMode.html",
+          "hash": "q9eFzAemNsxCDjSCZs/pqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.LiteralMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.LiteralMode.html",
+          "hash": "RYNGbtmOlUHRXj+Zd/LHOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.LogoutAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.LogoutAction.html",
+          "hash": "CX3SD8LHJYLEsBBqhgwEmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.MSDNTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.MSDNTreeViewImageSet.html",
+          "hash": "ACBK4TwafFm4pKVvIL1JBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.NewsTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.NewsTreeViewImageSet.html",
+          "hash": "0hY8kvvIIxFT2xWIppm5DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.NoneDataList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.NoneDataList.html",
+          "hash": "LQSD2k1G7nFja1GTH2ZQqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.NotEqualCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.NotEqualCompareOperator.html",
+          "hash": "opjFRLOT7/wTABVJTjRtOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.RedirectLogoutAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.RedirectLogoutAction.html",
+          "hash": "7Xr/EAnAj0ckdwQ2V5ssmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.RefreshLogoutAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.RefreshLogoutAction.html",
+          "hash": "3kpCiq58aUGb0/4qwhxIMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.RepeatLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.RepeatLayout.html",
+          "hash": "HW9cancdYfKMjwxnCxOtCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.Simple2TreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.Simple2TreeViewImageSet.html",
+          "hash": "FY38h2Hk58yShVc12PkTQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.SimpleTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.SimpleTreeViewImageSet.html",
+          "hash": "VfM7yqgs94I44WlyBwG4hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.SingleParagraphDisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.SingleParagraphDisplayMode.html",
+          "hash": "+sEhZkZE9Xsvi+cD/f9jJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.StringDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.StringDataType.html",
+          "hash": "YG912gHh8gS65qsd6qKC6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.TableRepeatLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.TableRepeatLayout.html",
+          "hash": "TjO0uT7yFtn12DSCs+CV/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.TreeNodeSelectAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.TreeNodeSelectAction.html",
+          "hash": "IE4CcaaVD1I5uD+Ifpzj6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.TreeNodeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.TreeNodeTypes.html",
+          "hash": "Ke5HTTdI0zdS72ab9kW1Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.TreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.TreeViewImageSet.html",
+          "hash": "aUfvZcN1aub5ex2aHw41yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.UnitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.UnitType.html",
+          "hash": "Pb2IB1ZZOJTbEsbgV8Zu1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ValidationCompareOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ValidationCompareOperator.html",
+          "hash": "2L/84ELO86mTAdVKo422eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ValidationDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ValidationDataType.html",
+          "hash": "gP1L6FXHziZw+7Rf0ikfbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.ValidationSummaryDisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.ValidationSummaryDisplayMode.html",
+          "hash": "5wupv+hG2VlWszYJz0lSCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.VerticalAlign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.VerticalAlign.html",
+          "hash": "rDYlbboCE/qlP6AXcnyu4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.VerticalDataList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.VerticalDataList.html",
+          "hash": "LqbmPgs7X1X8RtUyyTm0CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.WindowsHelpTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.WindowsHelpTreeViewImageSet.html",
+          "hash": "psbsPP80/K3CY7tCj2kN4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.XP_ExplorerTreeViewImageSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.XP_ExplorerTreeViewImageSet.html",
+          "hash": "X/mHzTtmlRFvUvzYUbCeSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Enums.html",
+          "hash": "3jyyQuHgcctNvaE+pAVPMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.FontUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.FontUnit.html",
+          "hash": "C9myOghSbcuHxeksVXpnHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.FooterStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.FooterStyle.html",
+          "hash": "fS3r8CUrLTQHY8ELEF4a1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.FormView-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.FormView-1.html",
+          "hash": "CdBUd7x0FxOXduTzmhki4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.FormViewModeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.FormViewModeEventArgs.html",
+          "hash": "7sw3anNS8Aa5pGzIT73c/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.FormViewUpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.FormViewUpdateEventArgs.html",
+          "hash": "wcp6sh/WxfRYd+bk9cu9bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.FormViewUpdatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.FormViewUpdatedEventArgs.html",
+          "hash": "Ie+oCEtKPXcf7KZjN8tToA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.GridView-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.GridView-1.html",
+          "hash": "nCBphNzn2KuZKXt4GqdBWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.GridViewColumnGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.GridViewColumnGenerator.html",
+          "hash": "EJ+PzmXqtx1t1wW+z3h5qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.GridViewRow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.GridViewRow-1.html",
+          "hash": "ofFM0xYpoy32qnpmcnvO3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.HeaderStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.HeaderStyle.html",
+          "hash": "sPdrEhUYJy599X56FjBwkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Helpers.html",
+          "hash": "tuuA/1YC9MHf32V0WrOcDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.HiddenField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.HiddenField.html",
+          "hash": "tzb/VJkqoRYx4SiqizzWhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.HyperLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.HyperLink.html",
+          "hash": "WdTcddNX77tYRIfa7LILVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.IButtonComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.IButtonComponent.html",
+          "hash": "gzMaPlwPWuQq3W8YcrRroA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.IHasFontStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.IHasFontStyle.html",
+          "hash": "cHrz0GGgBh/TFgHZ4UBhbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.IHasLayoutStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.IHasLayoutStyle.html",
+          "hash": "xcxHNFWvtcra6MkLFtGqeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.IHasLayoutTableItemStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.IHasLayoutTableItemStyle.html",
+          "hash": "EfTrTkpCzI31DZh+/LLPPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.IHasStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.IHasStyle.html",
+          "hash": "2s5IMAvYE1fZ6vXx2VO/bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.IHasStyleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.IHasStyleExtensions.html",
+          "hash": "2pNniqNtI/TdAEd2908cqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.IHasTableItemStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.IHasTableItemStyle.html",
+          "hash": "puJG1Q4Mkp0886WiIUASYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Image.html",
+          "hash": "3b2krt2dzbm6qPHqs8kW7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.ImageButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.ImageButton.html",
+          "hash": "6iGQjJd+gXxtxuMpwYKr4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Interfaces.IColumn-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Interfaces.IColumn-1.html",
+          "hash": "D+zEqwpVXpq0QVa7zypFug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Interfaces.IColumnCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Interfaces.IColumnCollection-1.html",
+          "hash": "IZcnyAYCN2aFTvmPrtqQOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Interfaces.IImageComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Interfaces.IImageComponent.html",
+          "hash": "ZcbVGvZB/cIOL8nJFGms+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Interfaces.IRow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Interfaces.IRow-1.html",
+          "hash": "RAWj68+hMfK8sFbC0qg4ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Interfaces.IRowCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Interfaces.IRowCollection-1.html",
+          "hash": "JJz/Lo++6yno3Njk4pMdyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Interfaces.ITextComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Interfaces.ITextComponent.html",
+          "hash": "qbWG0cxwJV5mnlDJLXbpFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Interfaces.html",
+          "hash": "pBejkcwO5WjV6JYs6rDhSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.ItemStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.ItemStyle.html",
+          "hash": "LGSUZS64lh8KA8LwP8CcnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Label.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Label.html",
+          "hash": "1Vj/HVNOSYQKMwzcAT2L8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LinkButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LinkButton.html",
+          "hash": "zgOeG0RsHBj+rnYuBSWuxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.ListView-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.ListView-1.html",
+          "hash": "LKTNTFHWFZflk2pMuo1S+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.ListViewItemEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.ListViewItemEventArgs.html",
+          "hash": "gO77JU+iwvfOecjOyD+7QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Literal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Literal.html",
+          "hash": "rS1hZf7WxYBewUzAK932Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.AuthenticateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.AuthenticateEventArgs.html",
+          "hash": "e8rtXDAUQCoRjBHMqJyJSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.CheckBoxStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.CheckBoxStyle.html",
+          "hash": "1+OqN+95Z9qtqHeZTcSHEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.FailureTextStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.FailureTextStyle.html",
+          "hash": "FSVYcSdYMglWVGGCiOZPOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.HyperLinkStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.HyperLinkStyle.html",
+          "hash": "VYt/cnfLOogLWrwuxumpuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.InstructionTextStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.InstructionTextStyle.html",
+          "hash": "SZuBBFQk31x4RPrJdsYB8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.LabelStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.LabelStyle.html",
+          "hash": "h2sHx1G62+9Vyd4MY52wWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.Login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.Login.html",
+          "hash": "/8V33Qu60ewvd3LJE14tTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginButtonStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginButtonStyle.html",
+          "hash": "CpYHv3XhbbBAE62D/QWjhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginCancelEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginCancelEventArgs.html",
+          "hash": "Bxr3rSoSOgmv9KsubKJ7ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginName.html",
+          "hash": "FkVAbS/0Ulb5eKmPtYnPxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginStatus.html",
+          "hash": "hm9naVcT88KEAqBRVhIiTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.LoginView.html",
+          "hash": "lHZgm5GiZxnWcKDs+QMy0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.RoleGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.RoleGroup.html",
+          "hash": "uDjnlM0CUHTHPDpIa5JvYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.RoleGroupCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.RoleGroupCollection.html",
+          "hash": "CVN5hgm9cFlsdn232AixeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.TextBoxStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.TextBoxStyle.html",
+          "hash": "GaMB00P2vzbrvtltGkjRFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.TitleTextStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.TitleTextStyle.html",
+          "hash": "rkK8/HXKSSUKlhXmwp1uwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.ValidatorTextStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.ValidatorTextStyle.html",
+          "hash": "ZjBTsW7IAOpTJrXfjTgQ+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.LoginControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.LoginControls.html",
+          "hash": "9jkHxGGH73civj65o6EmQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Repeater-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Repeater-1.html",
+          "hash": "GtbgEvPSju6v9f+bQXFZmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.SeparatorStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.SeparatorStyle.html",
+          "hash": "zdyHwk2u+KT5xS6/JfTqXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Style.html",
+          "hash": "8OPkdiajMlpUeiHFNSoPyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.TableItemStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.TableItemStyle.html",
+          "hash": "CAfm20mQ6nPVgwQdBBTRsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.TemplateField-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.TemplateField-1.html",
+          "hash": "pAE7apgyR9gu43aKVN3CaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Test.ElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Test.ElementExtensions.html",
+          "hash": "0FjiehSLJbdMBaiXzRU+/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Test.LoginControls.Login.Credential.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Test.LoginControls.Login.Credential.html",
+          "hash": "7UhsHFjYWYUzBHa9+XHucg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Test.LoginControls.Login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Test.LoginControls.Login.html",
+          "hash": "+DLeMNLH01Urav6KYW32eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Test.MockNavigationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Test.MockNavigationManager.html",
+          "hash": "kwu8Jtah0ZJo6VM5eGqeeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Test.html",
+          "hash": "vvxHE5l9THoPYRc9AR9yMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.TreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.TreeNode.html",
+          "hash": "W6Z2XMrjVWxBEMseTDqM6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.TreeNodeBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.TreeNodeBinding.html",
+          "hash": "TmuMGFb+bysfH5sNabcunQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.TreeNodeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.TreeNodeCollection.html",
+          "hash": "jOS0Z3L2jJnZS7ANeD2JzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.TreeNodeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.TreeNodeEventArgs.html",
+          "hash": "VZQFFTjtNV2iKcz4cDPh6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.TreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.TreeView.html",
+          "hash": "Os4gw/Fg6lw+Rnvu2paj3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.UiStyle-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.UiStyle-1.html",
+          "hash": "ryF1ORsv1/+BhbNKbQQhTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.UiStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.UiStyle.html",
+          "hash": "M41MTea06v1D3QuB1tb88w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.UiTableItemStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.UiTableItemStyle.html",
+          "hash": "S9GT0vbpPERV1lGy5J1gfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Unit.html",
+          "hash": "dblWBDjU8ddfXU9sIMIZDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.AspNetValidationSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.AspNetValidationSummary.html",
+          "hash": "KcEXh7++Ql7JMUCIrJc6EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.BaseCompareValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.BaseCompareValidator-1.html",
+          "hash": "oXYiN8Fn9+ZD1JhJBPDmVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.BaseValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.BaseValidator-1.html",
+          "hash": "Q5L2+VpHDa+9riroVAnnfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.CompareValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.CompareValidator-1.html",
+          "hash": "3pkdUwP24thhewwRGmRqgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.ComparerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.ComparerFactory.html",
+          "hash": "AVV3ZrMjGf4EWVHA3uWTng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.CustomValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.CustomValidator.html",
+          "hash": "M88a1aC8Zta2fNj9oBplYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.ForwardRef-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.ForwardRef-1.html",
+          "hash": "LIcphN3dt2ZfgHUf8YS3FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.RangeValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.RangeValidator-1.html",
+          "hash": "PMdUdChGgpmhZCXttgy/fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.RegularExpressionValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.RegularExpressionValidator.html",
+          "hash": "+kCwNnVV3x7q4CRHqOh6MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.RequiredFieldValidator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.RequiredFieldValidator-1.html",
+          "hash": "V9Gy49HJ3wsskN7p+c1yuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.CurrencyComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.CurrencyComparer.html",
+          "hash": "mxM9rqQtZi3l47pp2xpkXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.DateComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.DateComparer.html",
+          "hash": "FgllHSdOovciB8GonjA0yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.DoubleComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.DoubleComparer.html",
+          "hash": "vrp0JrH4mVLce0zzaVbsPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.IComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.IComparer.html",
+          "hash": "3lh0bdkGDnOf6A6ExoCCYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.IntegerComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.IntegerComparer.html",
+          "hash": "IERaK4QPJEYEZFhgV4txWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.StringComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.StringComparer.html",
+          "hash": "TcnCHOdZN/SM/7fdYjfnuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.TypeComparers.html",
+          "hash": "Dq9XXA8E+RxCJeQvTbuxeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.Validations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.Validations.html",
+          "hash": "uPCxdAMLzK6TpTV6k7YoOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.WebColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.WebColor.html",
+          "hash": "WfR9LsREpCbvVYsc1jJZ3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWebFormsComponents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWebFormsComponents.html",
+          "hash": "vBwSxg6+9hIMiP1h3Q1RdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Drawing.ColorHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Drawing.ColorHelpers.html",
+          "hash": "1Ta4PZJARKhUrWG0Wou5KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Drawing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Drawing.html",
+          "hash": "SQ8IeZ39QnRPEVJAK888Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "SoRB3RWYyNzVx01Rw4t4aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "GziH4c/OUk7nFIydmgrpZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DataControls/DataList.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DataControls/DataList.html",
+          "hash": "u5tzUTxLeRlDYavSH498ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DataControls/FormView.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DataControls/FormView.html",
+          "hash": "Mkx80jnhT5qzhVPAmQtv8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DataControls/GridView.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DataControls/GridView.html",
+          "hash": "07TaAnYgN+e6iDMGYQdI5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DataControls/ListView.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DataControls/ListView.html",
+          "hash": "B+igbBBPncmA4czCN5nfhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DataControls/Repeater.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DataControls/Repeater.html",
+          "hash": "l6UBllnv2gENoGwja7Toyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/AdRotator.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/AdRotator.html",
+          "hash": "fgltIkR9avBQb4zC/mE92w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/Button.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/Button.html",
+          "hash": "B4A+eY7Bpf4d7DYJqL5spA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/HiddenField.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/HiddenField.html",
+          "hash": "rtr5ClXyecsGFpJfPMlYbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/HyperLink.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/HyperLink.html",
+          "hash": "p0rZ1q5NR9WjX2csPobKlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/Image.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/Image.html",
+          "hash": "yIpPAV1V1M03hAv/F/ugTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/ImageButton.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/ImageButton.html",
+          "hash": "QCxp9hnEvy1C4EzhJtskMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/Label.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/Label.html",
+          "hash": "gmjbpbRXkKieFg7zwnB+jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/LinkButton.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/LinkButton.html",
+          "hash": "+pAPgBsZzd72jzvh2TPbMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/EditorControls/Literal.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EditorControls/Literal.html",
+          "hash": "cy6SrnobcDjTNs0pkJMb/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/Custom-Controls.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/Custom-Controls.html",
+          "hash": "A/ImgN/84/r4Wj4DQYsRHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/MasterPages.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/MasterPages.html",
+          "hash": "GrgrOBmKXnUiGBlDAib3gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/NET-Standard.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/NET-Standard.html",
+          "hash": "5B2sVpfgamGbY46tdGu55A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/Strategies.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/Strategies.html",
+          "hash": "MXUKKQqc7ggG5wTpClPnIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/User-Controls.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/User-Controls.html",
+          "hash": "CEE3ecScpb6tkeXf5spjlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/migration_readiness.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/migration_readiness.html",
+          "hash": "A9IsH7HQn01L7352hy/lIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/readme.html",
+          "hash": "aQ966M3wyzz+9qmsffI9xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/samples/netstandard-1/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/samples/netstandard-1/README.html",
+          "hash": "fNWjTdgPWq68RQz9DmNECw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Migration/samples/netstandard-2/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Migration/samples/netstandard-2/README.html",
+          "hash": "1I6cuggTHSZzrEEQyp2i9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/NavigationControls/TreeView.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/NavigationControls/TreeView.html",
+          "hash": "noWv9XucO+PxdpQhh/RkWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/README.html",
+          "hash": "q0DW/YFNnAJqIzwkrctCZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UtilityFeatures/Databinder.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UtilityFeatures/Databinder.html",
+          "hash": "JvL9xOZXv5y3GUox4SBT0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UtilityFeatures/ViewState.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UtilityFeatures/ViewState.html",
+          "hash": "o/P83Ryais0Cq38Lro3dXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ValidationControls/CustomValidator.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ValidationControls/CustomValidator.html",
+          "hash": "fNe3D45OVPUqKLKNWhbPlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ValidationControls/RegularExpressionValidator.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ValidationControls/RegularExpressionValidator.html",
+          "hash": "qj9ldXZvdUuuCI7w5sxNbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ValidationControls/RequiredFieldValidator.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ValidationControls/RequiredFieldValidator.html",
+          "hash": "7i8jZDy05gOBbMfulitQRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ValidationControls/ValidationSummary.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ValidationControls/ValidationSummary.html",
+          "hash": "PAhZUNWmf4ugsTc6TfMc/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "sm5LFLrhoo4EE260nc5S5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FritzAndFriends.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/FritzAndFriends.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FritzAndFriends.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FritzAndFriends.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "AB9mm1FlWG1OIwFg5nL8bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Ig9R5ZPqJI6b/J/lrnv2dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 33,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 173,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

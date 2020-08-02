@@ -1,0 +1,1039 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseWebFormsComponent
+   | BlazorWebFormsComponents </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseWebFormsComponent
+   | BlazorWebFormsComponents ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../images/FritzAndFriends.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/FritzAndFriends.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent">
+  
+  
+  <h1 id="BlazorWebFormsComponents_BaseWebFormsComponent" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent" class="text-break">Class BaseWebFormsComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BaseWebFormsComponent</span></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.AdRotator.html">AdRotator</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.BaseColumn-1.html">BaseColumn&lt;ItemType&gt;</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.BaseDataBindingComponent.html">BaseDataBindingComponent</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.BaseRow-1.html">BaseRow&lt;ItemType&gt;</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.ButtonBaseComponent.html">ButtonBaseComponent</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.HiddenField.html">HiddenField</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.HyperLink.html">HyperLink</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.Image.html">Image</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.Label.html">Label</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.Literal.html">Literal</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.LoginControls.Login.html">Login</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.LoginControls.LoginName.html">LoginName</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.LoginControls.LoginStatus.html">LoginStatus</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.LoginControls.LoginView.html">LoginView</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.LoginControls.RoleGroup.html">RoleGroup</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.Validations.AspNetValidationSummary.html">AspNetValidationSummary</a></div>
+      <div class="level2"><a class="xref" href="BlazorWebFormsComponents.Validations.BaseValidator-1.html">BaseValidator&lt;Type&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IAsyncDisposable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BlazorWebFormsComponents.html">BlazorWebFormsComponents</a></h6>
+  <h6><strong>Assembly</strong>: BlazorWebFormsComponents.dll</h6>
+  <h5 id="BlazorWebFormsComponents_BaseWebFormsComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseWebFormsComponent : ComponentBase, IAsyncDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent__ctor_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.#ctor*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent__ctor" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.#ctor">BaseWebFormsComponent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseWebFormsComponent()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_AdditionalAttributes_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.AdditionalAttributes*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_AdditionalAttributes" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.AdditionalAttributes">AdditionalAttributes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, object&gt; AdditionalAttributes { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_ChildComponents_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ChildComponents*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_ChildComponents" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ChildComponents">ChildComponents</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderFragment ChildComponents { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RenderFragment</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_Controls_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Controls*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_Controls" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Controls">Controls</h4>
+  <div class="markdown level1 summary"><p>The list of child controls</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;BaseWebFormsComponent&gt; Controls { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="BlazorWebFormsComponents.BaseWebFormsComponent.html">BaseWebFormsComponent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_DataKeys_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DataKeys*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_DataKeys" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DataKeys">DataKeys</h4>
+  <div class="markdown level1 summary"><p>🚨🚨 DataKeys are not used in Blazor 🚨🚨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DataKeys { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_DataSourceID_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DataSourceID*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_DataSourceID" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DataSourceID">DataSourceID</h4>
+  <div class="markdown level1 summary"><p>🚨🚨 DataSource controls are not used in Blazor 🚨🚨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DataSourceID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_Enabled_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Enabled*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_Enabled" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Enabled">Enabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_EnableTheming_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.EnableTheming*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_EnableTheming" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.EnableTheming">EnableTheming</h4>
+  <div class="markdown level1 summary"><p>🚨🚨 Theming is not available in Blazor 🚨🚨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnableTheming { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_EnableViewState_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.EnableViewState*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_EnableViewState" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.EnableViewState">EnableViewState</h4>
+  <div class="markdown level1 summary"><p>While ViewState is supported by this library, this parameter does nothing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnableViewState { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_ID_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ID*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_ID" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ID">ID</h4>
+  <div class="markdown level1 summary"><p>🚨🚨 Use @ref instead of ID 🚨🚨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_ItemPlaceholderID_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ItemPlaceholderID*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_ItemPlaceholderID" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ItemPlaceholderID">ItemPlaceholderID</h4>
+  <div class="markdown level1 summary"><p>🚨🚨 Placeholders are not available in Blazor 🚨🚨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ItemPlaceholderID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_JsRuntime_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.JsRuntime*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_JsRuntime" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.JsRuntime">JsRuntime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IJSRuntime JsRuntime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IJSRuntime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_LayoutTemplateRendered_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.LayoutTemplateRendered*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_LayoutTemplateRendered" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.LayoutTemplateRendered">LayoutTemplateRendered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LayoutTemplateRendered { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnDisposed_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnDisposed*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnDisposed" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnDisposed">OnDisposed</h4>
+  <div class="markdown level1 summary"><p>Event handler to mimic the Web Forms OnDisposed handler and triggered in the Dispose method of this class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventCallback&lt;EventArgs&gt; OnDisposed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnInit_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnInit*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnInit" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnInit">OnInit</h4>
+  <div class="markdown level1 summary"><p>Event handler to mimic the Web Forms OnInit handler, and is triggered at the beginning of the OnInitialize Blazor event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventCallback&lt;EventArgs&gt; OnInit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnLoad_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnLoad*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnLoad" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnLoad">OnLoad</h4>
+  <div class="markdown level1 summary"><p>Event handler to mimic the Web Forms OnLoad handler, and is triggered at the end of the OnInitialize Blazor event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventCallback&lt;EventArgs&gt; OnLoad { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnPreRender_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnPreRender*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnPreRender" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnPreRender">OnPreRender</h4>
+  <div class="markdown level1 summary"><p>Event handler to mimic the Web Forms OnPreRender handler, and is triggered at the end of the OnInitialize Blazor event after Load</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventCallback&lt;EventArgs&gt; OnPreRender { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnUnload_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnUnload*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnUnload" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnUnload">OnUnload</h4>
+  <div class="markdown level1 summary"><p>Event handler to mimic the Web Forms OnUnload handler, and is triggered at the end of the OnAfterRender Blazor event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventCallback&lt;EventArgs&gt; OnUnload { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventCallback</span>&lt;<span class="xref">EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_Parent_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Parent*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_Parent" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Parent">Parent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual BaseWebFormsComponent Parent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BlazorWebFormsComponents.BaseWebFormsComponent.html">BaseWebFormsComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_runat_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.runat*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_runat" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.runat">runat</h4>
+  <div class="markdown level1 summary"><p>🚨🚨 runat is not available in Blazor 🚨🚨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string runat { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_SkinID_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.SkinID*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_SkinID" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.SkinID">SkinID</h4>
+  <div class="markdown level1 summary"><p>🚨🚨 Theming is not available in Blazor 🚨🚨</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SkinID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_TabIndex_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.TabIndex*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_TabIndex" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.TabIndex">TabIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short TabIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_ViewState_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ViewState*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_ViewState" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.ViewState">ViewState</h4>
+  <div class="markdown level1 summary"><p>ViewState is supported for compatibility with those components and pages that add and retrieve items from ViewState.!--  It is not binary compatible, but is syntax compatible</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, object&gt; ViewState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_Visible_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Visible*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_Visible" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Visible">Visible</h4>
+  <div class="markdown level1 summary"><p>Is the content of this component rendered and visible to your users?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Visible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_DataBind_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DataBind*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_DataBind" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DataBind">DataBind()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DataBind()</code></pre>
+  </div>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_Dispose_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Dispose*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_Dispose_System_Boolean_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual ValueTask Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ValueTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_DisposeAsync_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DisposeAsync*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_DisposeAsync" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.DisposeAsync">DisposeAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueTask DisposeAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ValueTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_Finalize_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Finalize*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_Finalize" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_FindControl_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.FindControl*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_FindControl_System_String_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.FindControl(System.String)">FindControl(String)</h4>
+  <div class="markdown level1 summary"><p>Finds a child control by its ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseWebFormsComponent FindControl(string controlId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">controlId</span></td>
+        <td><p>the ID of the child</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BlazorWebFormsComponents.BaseWebFormsComponent.html">BaseWebFormsComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_HandleUnknownAttributes_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.HandleUnknownAttributes*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_HandleUnknownAttributes" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.HandleUnknownAttributes">HandleUnknownAttributes()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void HandleUnknownAttributes()</code></pre>
+  </div>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnAfterRenderAsync_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnAfterRenderAsync*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnAfterRenderAsync_System_Boolean_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnAfterRenderAsync(System.Boolean)">OnAfterRenderAsync(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Task OnAfterRenderAsync(bool firstRender)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">firstRender</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnBubbledEvent_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnBubbledEvent*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnBubbledEvent_System_Object_EventArgs_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnBubbledEvent(System.Object,EventArgs)">OnBubbledEvent(Object, EventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnBubbledEvent(object sender, EventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">sender</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">EventArgs</span></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BlazorWebFormsComponents_BaseWebFormsComponent_OnInitializedAsync_" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnInitializedAsync*"></a>
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_OnInitializedAsync" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.OnInitializedAsync">OnInitializedAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Task OnInitializedAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="BlazorWebFormsComponents_BaseWebFormsComponent_BubbledEvent" data-uid="BlazorWebFormsComponents.BaseWebFormsComponent.BubbledEvent">BubbledEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected event EventHandler BubbledEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IAsyncDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="BlazorWebFormsComponents.ColorHelpers.html#BlazorWebFormsComponents_ColorHelpers_GetWebColorFromHtml_System_Object_">ColorHelpers.GetWebColorFromHtml(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Drawing.ColorHelpers.html#System_Drawing_ColorHelpers_GetColorFromHtml_System_Object_">ColorHelpers.GetColorFromHtml(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

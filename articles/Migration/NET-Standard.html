@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>.NET Standard to the Rescue | BlazorWebFormsComponents </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content=".NET Standard to the Rescue | BlazorWebFormsComponents ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../../images/FritzAndFriends.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/FritzAndFriends.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="net-standard-to-the-rescue">.NET Standard to the Rescue</h1>
+
+<p>.NET Standard is the definition of a contract, a series of APIs, that all .NET frameworks must implement to be considered a .NET framework.  .NET Framework, .NET Core, Xamarin, and Mono all implement various .NET Standard versions (or specifications) and this now becomes a vehicle for you to build your class libraries to be re-usable across various version of .NET.</p>
+<blockquote>
+<blockquote>
+<p>Needs links to the .NET Standard specifications and repository on GitHub</p>
+</blockquote>
+</blockquote>
+<p>Class libraries can be built and target different version specifications of .NET Standard.  You can target <em>ANY</em> version of .NET Standard and gain compatibility across .NET Framework and .NET Core, but we recommend you target at least <em>.NET Standard 2.0</em></p>
+<blockquote>
+<blockquote>
+<p>Add image showing compatibility table of .NET Standard</p>
+</blockquote>
+</blockquote>
+<h2 id="implications">Implications</h2>
+<p>For your existing Web Forms applications, unless you are executing unsafe code or p-invoking methods, you should be able to migrate much of your application's business logic to a .NET Standard targeting class library.  This has several benefits:</p>
+<ol>
+<li>You can migrate your business logic to the .NET Standard class library project, reference that project, and continue to use that logic in your ASP<span></span>.NET Web Forms application.</li>
+<li>Your new .NET Standard class library project can be <em>DIRECTLY</em> referenced by your migrated ASP<span></span>.NET Core / Server-side Blazor application</li>
+<li>Your business logic code is now isolated from your presentation code, and should be more testable.  Write some unit tests to verify that your business logic is behaving properly.</li>
+<li>If you'd like to write a mobile application to work with your web application, you can re-use your .NET Standard project with the Xamarin frameworks.</li>
+</ol>
+<h2 id="sample-1-update-an-existing-class-library">Sample 1: Update an existing class library</h2>
+<p>The first sample demonstrates updating a simple class library to .NET Standard.  In this model, we're assuming that you already have your business logic code properly separated from your user-interface and managed inside a class-library project that targets .NET Framework 4.5.  You can find the source and directions for this sample in the <a href="samples/netstandard-1">samples/netstandard-1</a> folder.</p>
+<h2 id="sample-2-refactoring-business-logic">Sample 2: Refactoring Business Logic</h2>
+<p>The second sample shows how to take an existing ASP<span></span>.NET application and refactor our some business logic as a .NET Standard project.  You can find the source and directions for this sample in the <a href="samples/netstandard-2">samples/netstandard-2</a> folder.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
